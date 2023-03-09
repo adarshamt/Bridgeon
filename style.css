@@ -1,0 +1,40 @@
+.hero{
+
+    color: rgb(28, 95, 240);
+    background-color:#eceaff;
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+.address{
+
+    background-color: black;
+
+    width: 50%;
+    height: 100px;
+}
+.passimg{
+
+    background-color: blueviolet;
+
+    width: 100px;
+    position: absolute;
+    height: 100px;
+
+    
+
+    display: flex;
+    justify-content: center;
+    
+    gap: 261px;
+
+    
+}
+
+.maindiv{
+
+    display: flex;
+
+}

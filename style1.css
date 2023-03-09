@@ -1,0 +1,48 @@
+.ul{
+list-style: none;
+}
+
+.headdiv{
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.maindiv{
+
+    background-color: #fab005;
+}
+
+.Details{
+    padding-left: 200px;
+
+    width: 50%;
+}
+
+.img{
+    display: flex;
+    justify-content: right;
+
+    padding-right: 260px;
+    padding-bottom: 200px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    border-radius: 60px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+i:hover{
+    color: green;
+
+}
