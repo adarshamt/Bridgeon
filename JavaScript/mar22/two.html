@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="bfr"></p>
+
+    <p id="output"></p>
+
+
+    <script>
+        const num =[2,54,23,68,16,11]
+        document.getElementById("bfr").innerHTML="Input:-"+ num
+        
+        const len=num.length
+
+        let larg = num[0]
+
+        for (i=1;i<len-1;i++){
+           
+
+                if (num[i]> larg){
+
+                    larg=num[i]
+                    
+
+                    
+                }
+            }
+            
+        
+
+        document.getElementById("output").innerHTML="output:-"+larg
+
+
+
+
+    </script>
+    
+    
+</body>
+</html>

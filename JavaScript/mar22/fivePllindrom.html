@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   <p id="ip"></p>
+    <p id="op"></p>
+    <script>
+    let nam ="madam"
+
+    let len=nam.length
+
+    document.getElementById("ip").innerHTML=nam
+    
+     let count =0
+    
+    for(i=0;i<len/2;i++){
+        
+
+        
+            if (nam[i] != nam[len-1-i]){
+
+                
+                count=1;
+                break
+                
+
+               
+            }
+
+        }
+    
+        if(count==1){
+            document.getElementById("op").innerHTML=" It is not a pllindrom"
+        }
+
+
+        else{
+
+            document.getElementById("op").innerHTML=" It is a pllindrom"
+
+
+
+        }
+    
+
+        
+    
+   
+        
+
+    
+
+
+    </script>
+    
+    
+</body>
+</html>
